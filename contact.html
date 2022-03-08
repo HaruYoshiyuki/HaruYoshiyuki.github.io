@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form here i come OvOb</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <h1>Please fill in your contacts below</h1>
+
+    <ul>
+        <li><a class="active" href="about.html">Home about</a></li>
+        <li><a href="BookMarkup.html">Book Chapter</a></li>
+        <li><a href="hobbies.html">Hobbies page</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    
+    <div class="wrapper">
+        <h2>From here on we begin the form</h2>
+        <form action="index.php" method="post">
+            <fieldset>
+                <legend>Your contact info please:</legend>
+
+                <label for="name">Your name here:</label>
+                <input type="text" name="name" id="name">
+
+                <label for="tel">The telephone number:</label>
+                <input type="tel" name="tel" id="tel">
+
+                <label for="email">The email:</label>
+                <input type="email" name="email" id="email">
+
+                <label for="birth">The birthday:</label>
+                <input type="date" name="birth" id="birth">
+                
+                <label for="comments">Insert comments here please:</label>
+                <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+        <aside>
+            <h3>The city where i live: HCMC</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d501725.3382135418!2d106.4150235474957!3d10.755341097418754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529292e8d3dd1%3A0xf15f5aad773c112b!2zSOG7kyBDaMOtIE1pbmgsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1646561322326!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </aside>
+    </div>
+</body>
+</html>
