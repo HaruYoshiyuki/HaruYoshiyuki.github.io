@@ -1,0 +1,25 @@
+body {
+    background-image: url("../images/city-fantasy-art-final-fantasy-final-fantasy-xv-wallpaper-preview.jpg");
+    background-size: cover;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    background-color: #F4FCD9;
+    margin: auto;
+    max-width: 60%;
+}
+
+h1, a{
+    display: block;
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+a{
+    text-decoration: none;
+    border: 1px solid #C5D8A4;
+    
+}

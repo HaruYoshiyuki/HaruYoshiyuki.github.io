@@ -1,7 +1,9 @@
-img{
-    width: 20rem;
-    height: 23rem;
-    margin-left: 35%;
+.Reynold{
+    float: right;
+    width: 12rem;
+    height: 15rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 body {
@@ -77,3 +79,14 @@ nav a {
     color: #4d5b5f;
 }
 
+.penelope{
+    width: 18rem;
+    height: 18rem;
+    margin-left: 35%;
+}
+
+.penelope-1{
+    width: 16rem;
+    height: 20rem;
+    margin-left: 35%;
+}
