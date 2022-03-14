@@ -7,7 +7,7 @@ body {
 }
 
 .wrapper{
-    background-color: #F4FCD9;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
     margin: auto;
     max-width: 60%;
 }
@@ -16,6 +16,7 @@ h1, a{
     display: block;
     text-align: center;
     font-family: 'Sansita Swashed', cursive;
+    color: antiquewhite;
 }
 
 a{
@@ -23,3 +24,30 @@ a{
     border: 1px solid #C5D8A4;
     
 }
+
+.hex{
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    position: relative;
+    background-color: aqua;
+    border: 1px solid black;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+a{
+    width:105%;
+    height:40px;
+    background:#005A87;
+    position:absolute;
+    margin:auto;
+    left:-2.5%;top:0;bottom:0;
+    z-index:99999999999;
+    font-family:Arial;
+    font-size:14px;
+    color:#fff;
+    line-height:40px;
+    text-align:center;
+    text-transform:uppercase;
+    letter-spacing:2px;
+  }
