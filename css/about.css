@@ -6,6 +6,10 @@
     padding-bottom: 0.5rem;
 }
 
+img {
+    visibility: hidden;
+}
+
 body {
     box-sizing: border-box;
     padding: 0;
